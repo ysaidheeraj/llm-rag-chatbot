@@ -28,3 +28,14 @@ To create a virtual environment and install the requirements from the `requireme
     ```
 
 Now you have successfully created a virtual environment and installed the required packages from the `requirements.txt` file.
+
+To access the data present in the `data/` folder, you can use the following code:
+
+```python
+import os
+
+data_folder = os.path.join(os.getcwd(), 'data')
+# Use the data_folder variable to access the data files
+```
+
+Make sure that the `data/` folder is located in the same directory as your script or notebook.
